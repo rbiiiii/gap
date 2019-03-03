@@ -1,0 +1,29 @@
+{
+  "name": "gap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbiiiii/gap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbiiiii/gap/issues"
+  },
+  "homepage": "https://github.com/rbiiiii/gap#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.4.9",
+    "gulp": "^4.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-image-resize": "^0.13.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-newer": "^1.4.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "postcss-cli": "^6.1.2"
+  }
+}
