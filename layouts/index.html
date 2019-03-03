@@ -1,3 +1,13 @@
 {{ define "main" }}
-  hguefhh
+  <header class="homepage-header block-mw">
+      <h1>{{ .Site.Data.home.title }}</h1>
+  </header>
+  <section class="homepage-intro block-mw">
+    {{ .Site.Data.home.intro | markdownify }}
+  </section>
+  <section class="homepage-films">
+    <ul class="homepage-films__list">
+      
+    </ul>
+  </section>
 {{ end }}

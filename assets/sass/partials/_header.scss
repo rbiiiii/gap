@@ -3,13 +3,17 @@
 */
 
 .site-header {
-    @include max-width;
-    padding-top:$su*3;
-    padding-bottom:$su*3;
+    padding-top: $su*2;
+    padding-bottom: $su*2;
+    margin-bottom:$su*4;
+    display: flex;
+    justify-content: space-between;
 }
 
-.site-title {
-
+.site-logo {
+    display: block;
+    position: fixed;
+    max-width: 200px;
 }
 
 

@@ -2,13 +2,16 @@
 * BASE
 */
 
-html, body {
-    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;   
+body {
+    font-family:Arial, Helvetica, sans-serif;   
     font-size:16px;
     font-weight:400;
-    color:$text-color;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    color:$white;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    background:$black;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 
     @media (min-width:400px) {
         font-size:18px;

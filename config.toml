@@ -1,3 +1,25 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Gapbusters"
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[menu]
+
+  [[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/home/"
+  weight = 10
+
+  [[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 20
+
+  [[menu.main]]
+  identifier = "films"
+  name = "Films"
+  url = "/films/"
+  weight = 30

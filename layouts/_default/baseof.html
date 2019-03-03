@@ -24,7 +24,7 @@
 
   <body>
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
-    <main role="main">
+    <main role="main" class="block-mw">
       {{ block "main" . }}{{ end }}
     </main>
     {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
